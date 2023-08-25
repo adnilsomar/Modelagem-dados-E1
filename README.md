@@ -186,9 +186,8 @@ ALTER TABLE dimensionalproducao.fato_vendas ADD CONSTRAINT fk_fato_vendas_dim_te
 ## :computer: Tecnologias usadas
 
 <div>
-  <!-- HTML5 -->
+  
   <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="Mysql"/>
-  <!-- CSS3 -->
   < <img src="https://img.shields.io/badge/DbSchema-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="DbSchema"/>
 <div/>
 

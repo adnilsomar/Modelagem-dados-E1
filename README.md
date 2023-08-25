@@ -181,8 +181,16 @@ ALTER TABLE dimensionalproducao.fato_vendas ADD CONSTRAINT fk_fato_vendas_dim_te
    Seria usada a tabela de fatos para identificar as receitas por cliente e combinada com a dimensão de cliente e a dimensão de tempo para filtrar por ano.
 
 8. Quais são os produtos que tiveram uma diminuição significativa nas vendas?
-   Seria usada a tabela de fatos para comparar as vendas atuais com as vendas passadas e combinada com a dimensão de produto.
- 
+   Seria usada a tabela de fatos para comparar as vendas atuais com as vendas passadas e combinada com a dimensão de produto. <br/><br/>
+
+## :computer: Tecnologias usadas
+
+<div>
+  <!-- HTML5 -->
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="Mysql"/>
+  <!-- CSS3 -->
+  < <img src="https://img.shields.io/badge/DbSchema-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="DbSchema"/>
+<div/>
 
 
 

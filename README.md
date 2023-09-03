@@ -3,14 +3,19 @@
 ## Caso: Empresa de Produção ABC
 
 ## Objetivo:
-Criar um modelo lógico dimensional para poder responder as tarefas de negocio da empresa, a partir do modelo logico transacional.
+Criar um modelo lógico dimensional para poder responder as tarefas de negocio da empresa, a partir do modelo lógico transacional.
 
 ## Introdução:
 
-A empresa de produção ABC é uma entidade fictícia criada com o propósito de ilustrar como dados transacionais podem ser transformados em informações estratégicas por meio da criação de um modelo dimensional. Neste exercício, partiu-se de um modelo transacional da empresa para conceber um modelo dimensional capaz de abordar e responder a várias tarefas de negócio.
+A empresa de produção ABC é uma entidade fictícia criada com o propósito de ilustrar como dados transacionais podem ser transformados em informações estratégicas por meio da criação de um modelo dimensional, conhecido como "star schema". O star schema é uma técnica de modelagem de dados amplamente utilizada no mundo da Business Intelligence (BI) e análise de dados. Nesse modelo, os dados são organizados em duas principais categorias de tabelas: tabelas de fatos e tabelas de dimensões.
 
+As tabelas de fatos armazenam medidas numéricas, como vendas, receita, quantidade de produtos vendidos, etc. Elas contêm chaves estrangeiras que se relacionam às tabelas de dimensões.
 
-## Modelo transacional da empresa ABC
+Por outro lado, as tabelas de dimensões contêm informações descritivas que fornecem contexto para as medidas nas tabelas de fatos. Por exemplo, as tabelas de dimensões podem conter informações sobre produtos, clientes, datas, localizações geográficas, etc.
+
+Ao implementar um modelo dimensional, a empresa ABC poderá simplificar a análise de seus dados transacionais, permitindo que os tomadores de decisão criem relatórios e análises de negócios de forma mais eficaz. Isso facilita a obtenção de insights estratégicos que podem orientar as operações e o crescimento da empresa. O star schema é uma abordagem poderosa para transformar dados brutos em informações estratégicas, fornecendo uma base sólida para a tomada de decisões informadas.
+
+## Modelo lógico transacional da empresa ABC
  <img src="https://github.com/adnilsomar/Modelagem-dados-E1/blob/main/assets/TransacionalProducao.png" width=2000 height=auto/>
 
 ## Transações:
